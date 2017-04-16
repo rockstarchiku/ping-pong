@@ -14,11 +14,11 @@ $(document).ready(function() {
 function convert(number) {
     switch (true) {
       case (number % 15) === 0:
-        return"PingPong!";
+        return"pingpong";
       case(number % 5) === 0:
-        return "Pong!";
+        return "pong";
       case(number % 3) === 0:
-        return "Ping!";
+        return "ping";
       default:
       return number;
     }
