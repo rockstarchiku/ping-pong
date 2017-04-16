@@ -10,12 +10,15 @@
   <title>Ping</title>
 </head>
 <body>
+  <!-- Header -->
   <div class="header">
     <div class="container">
       <div class="row ping">
         <h1>PING PONG</h1>
       </div>
     </div>
+    <!-- End of header -->
+    <!-- Rules section -->
   <div class="container">
     <div class="rules">
       <h1> Are you ready to play?</h1>
@@ -27,15 +30,26 @@
       </ul>
     </div>
   </div>
-
+  <!-- End of rules section -->
+  <!-- Form section -->
     <div class="container">
       <h1>Let's do this</h1>
       <div id="blanks">
         <form>
           <div class="form-group">
-            <label for="person1">Enter a number</label>
-            <input id="person1" class="form-control" type="text">
+            <label for="number">Enter a number</label>
+            <input id="number" type="number" placeholder="Number">
+            <button class="submit">Submit</button>
           </div>
-  </div>
+
+        </form>
+        </div>
+      </div>
+  <!-- End of form section -->
+  <!-- Results section -->
+    <div class="output">
+      Here is the result:
+      <ul></ul>
+    </div>
 </body>
 </html>
