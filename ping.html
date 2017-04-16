@@ -5,9 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/pong.css" rel="stylesheet" type="text/css">
   <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arya" rel="stylesheet">
   <script src="js/jquery.min.js"></script>
   <script src="js/script.js"></script>
-  <title>Ping</title>
+  <title>Ping-Pong</title>
 </head>
 <body>
   <!-- Header -->
@@ -21,7 +24,7 @@
     <!-- Rules section -->
   <div class="container">
     <div class="rules">
-      <h1> Are you ready to play?</h1>
+      <h2> Are you ready to play?</h2>
       <h2> But first, here are the rules...</h2>
       <ul>
         <li>Numbers divisible by 3 are replaced with "ping"</li>
@@ -33,11 +36,11 @@
   <!-- End of rules section -->
   <!-- Form section -->
     <div class="container">
-      <h1>Let's do this</h1>
+      <h2>Let's do this</h2>
       <div id="blanks">
         <form>
           <div class="form-group">
-            <label for="number">Enter a number</label>
+            <label for="number"><h2>Enter a number</h2></label>
             <input id="number" type="number" placeholder="Number">
             <button class="submit">Submit</button>
           </div>
@@ -46,10 +49,12 @@
       </div>
   <!-- End of form section -->
   <!-- Results section -->
+    <div class="container">
     <div class="output">
-      Here is the result:
+      <h2>Here is the result:</h2>
       <ul></ul>
     </div>
+  </div>
     <!-- End of result section -->
 </body>
 </html>
