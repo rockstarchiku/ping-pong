@@ -1,12 +1,12 @@
 $(document).ready(function() {
     $("#blanks form").submit(function(event) {
-        event.preventDefault();
         var numberInput = $("input#number").val();
         var list =  $("div.output ul");
         list.empty();
         for(var i = 1; i <= numberInput; i++) {
         list.append(`<li>${convert(i)}</li>`);
       }
+        event.preventDefault();
     });
 });
 
