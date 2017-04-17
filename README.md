@@ -1,6 +1,6 @@
 # Independent Project 3
 # Ping-Pong Game
-![Ping-Pong](http://www.moorlands.ac.uk/wp-content/uploads/Welcome-on-Beach.jpg)
+![Ping-Pong](http://brew-cafe.com/wp-content/uploads/May15_Pong_Banner.jpg)
 
 ## Purpose of Project
 * Learn to manipulate a webpage using JavaScript.
@@ -31,7 +31,7 @@
   * .
   * 14
   * pingpong
-  
+
 ## License
 
   Copyright (c) [2017] [Joyce Ngamau]
