@@ -19,5 +19,4 @@
   * **Example output:** {1,2}
 * It replaces numbers divisible by 3, 5 and 15 with **ping, pong** and **pingpong** respectively.
   * **Example input:** 16
-  * **Example output:** {1,2,ping,4,pong,....14,pingpong,16}
-  
+  * **Example output:** {1, 2, **ping**, 4, **pong**,....14, **pingpong**, 16}
