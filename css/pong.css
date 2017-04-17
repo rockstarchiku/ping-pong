@@ -6,6 +6,53 @@ body{
   width: 50%;
 
 }
+
+.nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: .5s;
+}
+
+.nav a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    font-family: 'Orbitron';
+}
+
+.nav a:hover {
+    color: grey;
+}
+
+.nav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .nav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
 .ping h1{
   font-size: 100px;
   font-weight: bold;
